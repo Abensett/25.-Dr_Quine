@@ -2,31 +2,47 @@
 
 ## Table of contents
 * [Goal](#Goal)  
-* [Introduction](#Introduction)
+* [Rules](#Rules)
 * [Takeaway](#Takeaway)
 * [Ressources](#Ressources)
 
-### Goal
->  Create a quine : a kind of metaprogram whose output and source code are identical.
+## Goal
+> Create 3  `Quines` : a kind of metaprogram whose output and source code are identical.
 
-### Forbidden
-* opening the source file and displaying it
-* use of any data entry
-* trivial solution empty
-
-
-### Rules
-
-#### Names
-* [ ] Executable = *
-#### Needs 
-* [ ] A main function  
-* [ ] One comment in the main function
-* [ ] One comment outside the program
-* [ ] Another function that will be call
+## Forbidden
+* Opening the source file and displaying it
+* Use of any data entry
+* Trivial solution empty
 
 
-### Takeaway
+## Rules for the 3 programs
+    
+### Colleen
+* [ ] Display on the `standard output`
+
+- [ ] A main function  
+- [ ] Another function that will be call
+- [ ] One comment in the main function and one outside the program
+
+
+### Grace
+* [ ] Writes in a file  `Grace_kid.c/Grace_kid.s`
+
+
+- [ ] No main
+- [ ] Three defines only
+- [ ] Run by calling a macro.
+
+### Sully
+
+ * [ ] Create/Compile/Run a file  `Sully_X.c/Sully_X.s`  ( X an integer given in the source code )
+
+
+- [ ] Stops when X = 0
+- [ ] X decrements by one at each creation
+- [ ] X starts at 5
+
+## Takeaway
 
 ```C
 int main (void)
@@ -34,18 +50,5 @@ int main (void)
 }
 ```
 
-### Ressources
+## Ressources
 * 
-
-You can validate this project with the C part only, however we strongly invite you to
-realize the Assembly part for all the next projects in this branch.
-The first program must have the features below :
-• The executable must be named Colleen.
-• When executed, the program must display on the standard output an output identical to the source code of the file used to compile the program.
-• The source code must contain at least :
-◦ A main function.
-◦ Two different comments.
-◦ One of the comments must be present in the main function
-◦ One of the comments must be present outside of your program.
-◦ Another function in addition to the main function (which of course will be
-called)
