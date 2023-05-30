@@ -1,4 +1,4 @@
-# Dr_Quine
+# Dr_Quine [In progress]
 
 ## Table of contents
 * [Goal](#Goal)  
